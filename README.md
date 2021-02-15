@@ -2,6 +2,11 @@
 
 A unofficial wrapper for WaifuLabs
 
+![PyPI](https://img.shields.io/pypi/v/waifulabs)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/waifulabs)
+![GitHub issues](https://img.shields.io/github/issues/Taromaruu/WaifuLabs)
+![GitHub](https://img.shields.io/github/license/Taromaruu/WaifuLabs)
+
 ## Generate a waifu
 ```python
 import waifulabs
