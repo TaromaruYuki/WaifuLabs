@@ -2,10 +2,10 @@
 
 A unofficial wrapper for WaifuLabs (WaifuLabs用の非公式Pythonパッケージ)
 
-![PyPI](https://img.shields.io/pypi/v/waifulabs)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/waifulabs)
-![GitHub issues](https://img.shields.io/github/issues/Taromaruu/WaifuLabs)
-![GitHub](https://img.shields.io/github/license/Taromaruu/WaifuLabs)
+[![PyPI](https://img.shields.io/pypi/v/waifulabs)](https://pypi.org/project/WaifuLabs/)
+[![PyPi - Downloads](https://img.shields.io/pypi/dm/waifulabs)](https://pypi.org/project/WaifuLabs/)
+[![GitHub issues](https://img.shields.io/github/issues/Taromaruu/WaifuLabs)](https://github.com/Taromaruu/WaifuLabs/issues)
+[![License](https://img.shields.io/github/license/Taromaruu/WaifuLabs)](https://github.com/Taromaruu/WaifuLabs/blob/main/LICENSE)
 
 ## Generate a waifu (一つつのWaifuを生成します)
 ```python
