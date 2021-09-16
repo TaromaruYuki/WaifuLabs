@@ -96,7 +96,7 @@ class Waifu:
         if not isvalidseed(self.seeds):
             raise WaifuInvalidSeed("No valid 'Waifu' or 'Seeds' provided")
 
-        if product != PILLOW or product != POSTER:
+        if (product != PILLOW) and (product != POSTER):
             raise WaifuInvalidProduct(f"Got {product}, not waifulabs.PILLOW, or waifulabs.POSTER")
 
         waifuproduct = valid_response(fetch("generate_preview", {
@@ -130,7 +130,7 @@ class AsyncWaifu(Waifu):
         if not isvalidseed(self.seeds):
             raise WaifuInvalidSeed("No valid 'Waifu' or 'Seeds' provided")
 
-        if product != PILLOW or product != POSTER:
+        if (product != PILLOW) and (product != POSTER):
             raise WaifuInvalidProduct(f"Got {product}, not waifulabs.PILLOW, or waifulabs.POSTER")
 
         resp = await fetch_async("generate_preview", {
