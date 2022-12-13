@@ -8,12 +8,12 @@ setuptools.setup(
     name=waifulabs.__title__,
     version=waifulabs.__version__,
     author=waifulabs.__author__,
-    author_email="taromaruyuki@gmail.com",
+    author_email="githubcontact.rqr5b@simplelogin.com",
     description="A unofficial wrapper for WaifuLabs",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Taromaruu/WaifuLabs",
-    download_url="https://github.com/Taromaruu/WaifuLabs/releases/",
+    url="https://github.com/TaromaruYuki/WaifuLabs",
+    download_url="https://github.com/TaromaruYuki/WaifuLabs/releases/",
     install_requires=["requests", "aiohttp"],
     packages=setuptools.find_packages(),
     classifiers=[
@@ -22,5 +22,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
         "Development Status :: 5 - Production/Stable"
     ],
-    python_requires='>=3.6'
+    python_requires='>=3.8'
 )
